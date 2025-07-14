@@ -1,0 +1,26 @@
+{
+  "Cluster": "1",
+  "CandidateSubtype": "Embryonal",
+  "TopGenes": [
+    "COL3A1",
+    "COL1A2",
+    "COL1A1",
+    "SPARC",
+    "MTRNR2L1",
+    "LUM",
+    "DCN",
+    "CXCL14",
+    "COL6A3",
+    "VIM"
+  ],
+  "SupportingEvidence": [
+    "Upregulation of collagen genes (COL3A1, COL1A2, COL1A1, COL6A3) suggests a mesenchymal phenotype, which is characteristic of embryonal subtype.",
+    "SPARC, a matricellular protein involved in tissue remodeling, is often upregulated in embryonal subtype.",
+    "VIM (Vimentin) is a marker of epithelial to mesenchymal transition, supporting the embryonal subtype."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry for COL1A1, COL1A2, and VIM to confirm the mesenchymal phenotype.",
+    "Investigate the presence of other embryonal subtype markers, such as AFP, through qPCR.",
+    "Perform single-cell RNA sequencing on additional tumor samples to validate these findings."
+  ]
+}

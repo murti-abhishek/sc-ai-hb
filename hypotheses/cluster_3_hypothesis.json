@@ -1,0 +1,30 @@
+{
+  "Cluster": "3",
+  "CandidateSubtype": "fetal",
+  "TopGenes": [
+    "ADH1B",
+    "GLUL",
+    "HSP90AA1",
+    "HSPA1A",
+    "CYP2E1",
+    "REG3A",
+    "MALAT1",
+    "MT-RNR2",
+    "APOC1",
+    "APCS"
+  ],
+  "SupportingEvidence": [
+    "ADH1B is involved in ethanol metabolism, which is a characteristic of fetal liver cells.",
+    "GLUL is involved in ammonia detoxification, a function of mature hepatocytes, indicating a more differentiated, fetal-like state.",
+    "HSP90AA1 and HSPA1A are heat shock proteins that are typically upregulated in response to stress, which could be indicative of the tumor environment.",
+    "CYP2E1 is involved in drug metabolism and is typically expressed in mature hepatocytes, again suggesting a more differentiated, fetal-like state.",
+    "REG3A is a hepatocytic growth factor that could be involved in the proliferation of the tumor cells.",
+    "MALAT1 and MT-RNR2 are non-coding RNAs that have been associated with various cancers, including hepatoblastoma.",
+    "APOC1 and APCS are involved in lipid metabolism, a function of mature hepatocytes, indicating a more differentiated, fetal-like state."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry to confirm the expression of these genes at the protein level.",
+    "Perform functional studies to determine the role of these genes in the growth and survival of the tumor cells.",
+    "Investigate the potential of these genes as therapeutic targets."
+  ]
+}

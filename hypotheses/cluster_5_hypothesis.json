@@ -1,0 +1,26 @@
+{
+  "Cluster": "5",
+  "CandidateSubtype": "embryonal",
+  "TopGenes": [
+    "CHGB",
+    "PCSK1N",
+    "PBXIP1",
+    "CHGA",
+    "MAP1B",
+    "TUSC3",
+    "PLD3",
+    "PKM",
+    "XIST",
+    "CACYBP"
+  ],
+  "SupportingEvidence": [
+    "CHGB and CHGA are known to be associated with neuroendocrine differentiation, which is a characteristic of embryonal subtype.",
+    "PKM is involved in glycolysis, which is often upregulated in rapidly proliferating cells like those in embryonal subtype.",
+    "XIST is involved in X-chromosome inactivation, which may suggest a female patient or a cell line with two X chromosomes, but it does not directly indicate a specific subtype."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry to confirm the presence of neuroendocrine markers.",
+    "Perform metabolic assays to confirm the upregulation of glycolysis.",
+    "Perform karyotyping or FISH to confirm the X-chromosome status."
+  ]
+}

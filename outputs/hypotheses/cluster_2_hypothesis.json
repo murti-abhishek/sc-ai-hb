@@ -1,0 +1,29 @@
+{
+  "Cluster": "2",
+  "CandidateSubtype": "Embryonal",
+  "TopGenes": [
+    "SRGN",
+    "IL8",
+    "HBB",
+    "FTH1",
+    "IL1B",
+    "HLA-B",
+    "S100A9",
+    "B2M",
+    "CTSB",
+    "MT-CO1"
+  ],
+  "SupportingEvidence": [
+    "SRGN is known to be involved in cell proliferation and migration, which is characteristic of embryonal subtype.",
+    "IL8 and IL1B are pro-inflammatory cytokines, suggesting an immune response which is often seen in embryonal subtype.",
+    "HBB, FTH1, and MT-CO1 are involved in cellular metabolism and oxygen transport, which are crucial for rapidly dividing cells in embryonal subtype.",
+    "HLA-B, B2M, and S100A9 are involved in immune response, suggesting a possible immune infiltration in the tumor environment, a feature of embryonal subtype.",
+    "CTSB is a lysosomal protease involved in protein degradation and is often upregulated in aggressive tumors, supporting the embryonal subtype."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry to validate the expression of these genes at the protein level.",
+    "Perform functional assays to understand the role of these genes in tumor progression.",
+    "Investigate the immune cell infiltration in the tumor microenvironment using flow cytometry or single-cell RNA sequencing.",
+    "Validate these findings in a larger cohort of hepatoblastoma patients."
+  ]
+}

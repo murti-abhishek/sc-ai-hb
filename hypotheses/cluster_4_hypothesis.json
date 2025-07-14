@@ -1,0 +1,27 @@
+{
+  "Cluster": "4",
+  "CandidateSubtype": "fetal",
+  "TopGenes": [
+    "KNG1",
+    "APOE",
+    "CYP2E1",
+    "APOC3",
+    "FGA",
+    "FGG",
+    "AOX1",
+    "HMGCS2",
+    "ADH4",
+    "APOA1"
+  ],
+  "SupportingEvidence": [
+    "APOE, APOC3, and APOA1 are associated with lipid metabolism, a key feature of fetal hepatoblastoma subtype.",
+    "HMGCS2 is involved in ketogenesis, a process active in fetal liver.",
+    "CYP2E1 and ADH4 are involved in drug metabolism and alcohol dehydrogenation, respectively, which are functions of mature hepatocytes seen in the fetal subtype.",
+    "FGA and FGG are involved in the coagulation cascade, which is active in the fetal liver."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry for APOE, APOC3, and APOA1 to confirm protein expression.",
+    "Assess lipid metabolism in the tumor cells to confirm the fetal subtype.",
+    "Perform functional assays to assess the activity of the coagulation cascade and drug metabolism pathways."
+  ]
+}

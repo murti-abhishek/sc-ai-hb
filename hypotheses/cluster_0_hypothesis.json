@@ -1,0 +1,26 @@
+{
+  "Cluster": "0",
+  "CandidateSubtype": "fetal",
+  "TopGenes": [
+    "AFP",
+    "AHSG",
+    "APOB",
+    "ITIH2",
+    "APOM",
+    "APOA2",
+    "DLK1",
+    "SPINK1",
+    "SERPINA1",
+    "ACSL4"
+  ],
+  "SupportingEvidence": [
+    "AFP and DLK1 are markers of fetal liver cells and their high expression suggests a fetal subtype.",
+    "APOB, APOM, APOA2 are involved in lipid metabolism, a characteristic feature of fetal hepatocytes.",
+    "AHSG, ITIH2, SERPINA1, and SPINK1 are associated with serum protein synthesis, another feature of fetal hepatocytes."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry to confirm the expression of these genes at the protein level.",
+    "Carry out functional assays to understand the role of these genes in tumor biology.",
+    "Investigate the mutational status of these genes in the tumor cells."
+  ]
+}

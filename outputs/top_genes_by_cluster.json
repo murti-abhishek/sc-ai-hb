@@ -1,0 +1,110 @@
+{
+  "0": [
+    "AFP",
+    "AHSG",
+    "APOB",
+    "ITIH2",
+    "APOM",
+    "APOA2",
+    "DLK1",
+    "SPINK1",
+    "SERPINA1",
+    "ACSL4"
+  ],
+  "1": [
+    "COL3A1",
+    "COL1A2",
+    "COL1A1",
+    "SPARC",
+    "MTRNR2L1",
+    "LUM",
+    "DCN",
+    "CXCL14",
+    "COL6A3",
+    "VIM"
+  ],
+  "2": [
+    "SRGN",
+    "IL8",
+    "HBB",
+    "FTH1",
+    "IL1B",
+    "HLA-B",
+    "S100A9",
+    "B2M",
+    "CTSB",
+    "MT-CO1"
+  ],
+  "3": [
+    "ADH1B",
+    "GLUL",
+    "HSP90AA1",
+    "HSPA1A",
+    "CYP2E1",
+    "REG3A",
+    "MALAT1",
+    "MT-RNR2",
+    "APOC1",
+    "APCS"
+  ],
+  "4": [
+    "KNG1",
+    "APOE",
+    "CYP2E1",
+    "APOC3",
+    "FGA",
+    "FGG",
+    "AOX1",
+    "HMGCS2",
+    "ADH4",
+    "APOA1"
+  ],
+  "5": [
+    "CHGB",
+    "PCSK1N",
+    "PBXIP1",
+    "CHGA",
+    "MAP1B",
+    "TUSC3",
+    "PLD3",
+    "PKM",
+    "XIST",
+    "CACYBP"
+  ],
+  "6": [
+    "FGA",
+    "FGB",
+    "FGG",
+    "CPS1",
+    "C3",
+    "HP",
+    "FMO5",
+    "RELN",
+    "FN1",
+    "PAH"
+  ],
+  "7": [
+    "TFRC",
+    "STMN1",
+    "TUBB",
+    "FST",
+    "HBG1",
+    "HBG2",
+    "SERPINI1",
+    "FGL2",
+    "EPB41",
+    "MYH7B"
+  ],
+  "8": [
+    "MYH7B",
+    "MATN3",
+    "APCDD1",
+    "CHGB",
+    "ROBO1",
+    "ITGA8",
+    "NKD1",
+    "BMP4",
+    "NRP2",
+    "ZNRF3"
+  ]
+}
