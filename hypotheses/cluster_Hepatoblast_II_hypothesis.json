@@ -1,0 +1,41 @@
+{
+  "Cluster": "Hepatoblast_II",
+  "CandidateSubtype": "mixed",
+  "TopGenes": [
+    "ADH1B",
+    "HSP90AA1",
+    "GLUL",
+    "HSPA1A",
+    "CYP2E1",
+    "REG3A",
+    "MT-RNR2",
+    "MALAT1",
+    "APOC1",
+    "APCS",
+    "BAAT",
+    "MT-ND4",
+    "HLA-B",
+    "MT-CYB",
+    "MT-ATP6",
+    "NEAT1",
+    "APOE",
+    "FTH1",
+    "MT-CO2",
+    "AKR1C1"
+  ],
+  "ProliferationScore": "0.180",
+  "StemnessScore": "0.511",
+  "ImmuneScore": "0.636",
+  "PrognosticScore": "0.314",
+  "SupportingEvidence": [
+    "Proliferation score is low, suggesting a slower growing tumor.",
+    "Stemness score is intermediate, indicating a mixed population of differentiated and stem-like cells, consistent with a mixed subtype.",
+    "High immune infiltration score suggests the presence of immune cells within the tumor, which could be a response to tumor antigens.",
+    "Prognostic score is low, indicating a better prognosis for this tumor subtype."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry to confirm the presence of immune cells within the tumor.",
+    "Conduct functional assays to assess the proliferative capacity of the tumor cells.",
+    "Perform in vitro differentiation assays to confirm the stem-like properties of the tumor cells."
+  ]
+}

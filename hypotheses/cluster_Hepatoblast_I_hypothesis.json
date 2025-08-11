@@ -1,0 +1,42 @@
+{
+  "Cluster": "Hepatoblast_I",
+  "CandidateSubtype": "fetal",
+  "TopGenes": [
+    "FGA",
+    "FGG",
+    "APOE",
+    "KNG1",
+    "CYP2E1",
+    "FGB",
+    "CPS1",
+    "C3",
+    "AFM",
+    "AOX1",
+    "APOC3",
+    "F5",
+    "HMGCS2",
+    "ACADVL",
+    "ITIH1",
+    "VTN",
+    "AMBP",
+    "HP",
+    "GLUL",
+    "AZGP1"
+  ],
+  "ProliferationScore": "0.086",
+  "StemnessScore": "0.000",
+  "ImmuneScore": "0.257",
+  "PrognosticScore": "0.490",
+  "SupportingEvidence": [
+    "Low proliferation score indicates slow tumor growth.",
+    "No stemness score suggests lack of stem cell-like properties, which is consistent with the fetal subtype.",
+    "Intermediate immune infiltration score suggests some immune response, but not a highly inflamed tumor environment.",
+    "Intermediate prognostic score indicates moderate risk, which is consistent with the generally better prognosis of the fetal subtype.",
+    "Upregulation of genes such as FGA, FGG, APOE, and CYP2E1, which are associated with mature liver functions, supports the fetal subtype assignment."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry to confirm the expression of top marker genes at the protein level.",
+    "Conduct in vitro proliferation assays to validate the low proliferation score.",
+    "Perform single-cell RNA sequencing on additional samples to validate the subtype assignment."
+  ]
+}

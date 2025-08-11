@@ -1,0 +1,42 @@
+{
+  "Cluster": "Neuroendocrine_I_P8",
+  "CandidateSubtype": "embryonal",
+  "TopGenes": [
+    "CHGB",
+    "PCSK1N",
+    "SYT4",
+    "CHGA",
+    "MFAP4",
+    "NLRP1",
+    "NEUROD1",
+    "PBXIP1",
+    "SCGN",
+    "SCG3",
+    "BTBD3",
+    "KIAA1244",
+    "QPCT",
+    "TUBA1A",
+    "INSM1",
+    "APLP1",
+    "HSPB1",
+    "NR2F1",
+    "GNAS",
+    "CACYBP"
+  ],
+  "ProliferationScore": "0.000",
+  "StemnessScore": "1.000",
+  "ImmuneScore": "0.000",
+  "PrognosticScore": "0.056",
+  "SupportingEvidence": [
+    "The proliferation score is very low, indicating that the cells in this cluster are not actively dividing.",
+    "The stemness score is very high, which is characteristic of embryonal subtype that is known to have a high degree of stemness.",
+    "The immune infiltration score is very low, suggesting that the tumor microenvironment is not highly infiltrated by immune cells.",
+    "The prognostic score is low, suggesting a better prognosis for this subtype."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry to confirm the expression of top genes.",
+    "Conduct in vitro differentiation assays to confirm the high stemness score.",
+    "Carry out immune profiling to validate the low immune score.",
+    "Perform survival analysis to validate the low prognostic score."
+  ]
+}

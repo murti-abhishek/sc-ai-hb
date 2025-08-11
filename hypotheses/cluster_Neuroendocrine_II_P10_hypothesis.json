@@ -1,0 +1,42 @@
+{
+  "Cluster": "Neuroendocrine_II_P10",
+  "CandidateSubtype": "embryonal",
+  "TopGenes": [
+    "MYH7B",
+    "MATN3",
+    "APCDD1",
+    "CHGB",
+    "ROBO1",
+    "NKD1",
+    "NRP2",
+    "BMP4",
+    "GNAS",
+    "PLAT",
+    "TMX4",
+    "ZNRF3",
+    "PTN",
+    "ITGA8",
+    "TGFB2",
+    "CTSH",
+    "SERPINI1",
+    "BGN",
+    "ZNF503",
+    "LAMC1"
+  ],
+  "ProliferationScore": "0.080",
+  "StemnessScore": "0.883",
+  "ImmuneScore": "0.244",
+  "PrognosticScore": "0.000",
+  "SupportingEvidence": [
+    "The proliferation score is low, indicating a slow-growing tumor which is consistent with the embryonal subtype of hepatoblastoma.",
+    "The stemness score is high, suggesting a high degree of pluripotency and self-renewal capacity. This is also characteristic of the embryonal subtype, which is known to contain immature, stem-like cells.",
+    "The immune infiltration score is intermediate, suggesting some degree of immune cell infiltration into the tumor, but not to a high degree. This is consistent with the embryonal subtype, which can elicit an immune response, but not as strongly as some other subtypes.",
+    "The prognostic signature score is very low, suggesting a favorable prognosis. This is consistent with the embryonal subtype, which generally has a better prognosis than other hepatoblastoma subtypes."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry to confirm the presence of embryonal markers in the tumor cells.",
+    "Carry out functional assays to validate the high stemness score, such as sphere formation or colony formation assays.",
+    "Investigate the immune microenvironment of the tumor using multiplex immunofluorescence to better understand the level and nature of immune infiltration.",
+    "Validate the prognostic score using survival analysis in a larger cohort of hepatoblastoma patients."
+  ]
+}

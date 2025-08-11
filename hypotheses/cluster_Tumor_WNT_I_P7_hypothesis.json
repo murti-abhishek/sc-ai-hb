@@ -1,0 +1,42 @@
+{
+  "Cluster": "Tumor_WNT_I_P7",
+  "CandidateSubtype": "embryonal",
+  "TopGenes": [
+    "MYH7B",
+    "PDXK",
+    "SLC1A5",
+    "LIX1",
+    "APCDD1",
+    "GRM3",
+    "CHST11",
+    "HOMER2",
+    "FBXO32",
+    "IGF2R",
+    "LEF1",
+    "MATN3",
+    "LEPR",
+    "TMX4",
+    "TBX3",
+    "SCRN1",
+    "SERPINI1",
+    "NKD1",
+    "ERMP1",
+    "RUNX2"
+  ],
+  "ProliferationScore": "0.014",
+  "StemnessScore": "0.531",
+  "ImmuneScore": "0.066",
+  "PrognosticScore": "0.000",
+  "SupportingEvidence": [
+    "The proliferation score is low (0.014), suggesting that the cells in this cluster are not rapidly dividing, which is characteristic of the embryonal subtype.",
+    "The stemness score is intermediate (0.531), indicating a level of cell immaturity and plasticity, which is consistent with the embryonal subtype.",
+    "The immune infiltration score is low (0.066), suggesting a lack of immune cell presence in the tumor environment, which is common in embryonal subtype.",
+    "The prognostic signature score is very low (0.000), indicating a potentially favorable prognosis, which is often associated with the embryonal subtype."
+  ],
+  "SuggestedExperiments": [
+    "Perform immunohistochemistry to confirm the lack of immune cell infiltration.",
+    "Conduct functional assays to validate the stemness properties of the cells.",
+    "Carry out in vivo studies to assess tumor growth rate and validate the low proliferation score.",
+    "Perform gene knockdown studies to investigate the role of the top genes in tumor biology."
+  ]
+}
