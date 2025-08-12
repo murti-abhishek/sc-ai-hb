@@ -1,6 +1,6 @@
 {
   "Cluster": "Tumor_WNT_I_P7",
-  "CandidateSubtype": "embryonal",
+  "CandidateSubtype": "mixed",
   "TopGenes": [
     "MYH7B",
     "PDXK",
@@ -23,20 +23,23 @@
     "ERMP1",
     "RUNX2"
   ],
-  "ProliferationScore": "0.014",
-  "StemnessScore": "0.531",
-  "ImmuneScore": "0.066",
-  "PrognosticScore": "0.000",
+  "ProliferationScore": "0.014 (low)",
+  "StemnessScore": "0.531 (intermediate)",
+  "ImmuneScore": "0.066 (low)",
+  "PrognosticScore": "0.000 (low)",
   "SupportingEvidence": [
-    "The proliferation score is low (0.014), suggesting that the cells in this cluster are not rapidly dividing, which is characteristic of the embryonal subtype.",
-    "The stemness score is intermediate (0.531), indicating a level of cell immaturity and plasticity, which is consistent with the embryonal subtype.",
-    "The immune infiltration score is low (0.066), suggesting a lack of immune cell presence in the tumor environment, which is common in embryonal subtype.",
-    "The prognostic signature score is very low (0.000), indicating a potentially favorable prognosis, which is often associated with the embryonal subtype."
+    "WNT/\u03b2-catenin activation signature (LEF1, APCDD1, NKD1, TBX3, LIX1)",
+    "Hepatoblast/progenitor program indicated by TBX3 and LEF1; absence of mature hepatocyte markers",
+    "Mesenchymal/osteochondral differentiation signals (RUNX2, MATN3, CHST11, LEPR) alongside epithelial/progenitor genes, consistent with mixed epithelial\u2013mesenchymal features",
+    "Muscle/contractile and atrophy-related genes (MYH7B, FBXO32) supporting mesenchymal components",
+    "Neuro/glutamatergic-associated genes (GRM3, HOMER2, SERPINI1) often seen in mixed/teratoid HB contexts",
+    "Metabolic rewiring with glutamine transporter SLC1A5 typical of WNT-driven progenitor-like cells"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the lack of immune cell infiltration.",
-    "Conduct functional assays to validate the stemness properties of the cells.",
-    "Carry out in vivo studies to assess tumor growth rate and validate the low proliferation score.",
-    "Perform gene knockdown studies to investigate the role of the top genes in tumor biology."
+    "IHC/IF: nuclear \u03b2-catenin, LEF1, TBX3; mesenchymal/osteochondral markers RUNX2, MATN3, SOX9; epithelial (EPCAM, KRT19) vs mesenchymal (VIM) markers",
+    "Histochemical stains: Alcian blue (chondroid) and Alizarin red/von Kossa (osteoid) to confirm mixed differentiation",
+    "Genetic/functional WNT assays: CTNNB1/AXIN1 sequencing and TCF/LEF reporter activity",
+    "Spatial transcriptomics to map epithelial vs mesenchymal regions within the tumor",
+    "Organoid derivation with WNT modulation; test SLC1A5 dependence using glutamine starvation or ASCT2 inhibitors"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "Cluster": "Erythroid_II",
-  "CandidateSubtype": "Embryonal",
+  "CandidateSubtype": "embryonal",
   "TopGenes": [
     "HBG1",
     "HBG2",
@@ -23,20 +23,21 @@
     "ABHD2",
     "WNK1"
   ],
-  "ProliferationScore": "1.000",
-  "StemnessScore": "0.342",
-  "ImmuneScore": "0.404",
-  "PrognosticScore": "0.069",
+  "ProliferationScore": "1.000 (high)",
+  "StemnessScore": "0.342 (intermediate)",
+  "ImmuneScore": "0.404 (intermediate)",
+  "PrognosticScore": "0.069 (low)",
   "SupportingEvidence": [
-    "High proliferation score (1.000) suggests rapid cell division, typical of embryonal subtype.",
-    "Intermediate stemness score (0.342) indicates some cells may retain pluripotency, also characteristic of embryonal subtype.",
-    "Intermediate immune infiltration score (0.404) may suggest some immune response, but not enough to classify as macrotrabecular subtype.",
-    "Low prognostic score (0.069) indicates a relatively good prognosis, which is more common in embryonal subtype."
+    "Strong erythroid program (HBG1/HBG2/HBA1/HBA2, EPB41, TFRC) indicating erythroid-lineage features/infiltration",
+    "Robust cell-cycle/mitotic signature (MKI67, STMN1, SMC4, TUBB) characteristic of less differentiated, rapidly dividing cells",
+    "Activation of Wnt/\u03b2-catenin targets (APCDD1, NKD1) aligns with embryonal hepatoblastoma biology",
+    "Absence of mature hepatocyte/fetal differentiation markers (e.g., ALB, CYPs) argues against fetal subtype"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm embryonal subtype markers.",
-    "Conduct functional assays to validate stemness properties.",
-    "Perform sequencing of immune cell repertoire to better understand immune infiltration.",
-    "Validate prognostic score with clinical follow-up data."
+    "Flow cytometry to sort CD235a(GYPA)+ erythroid cells vs EPCAM+/AFP+/GPC3+ tumor cells for re-analysis",
+    "IHC/IF for nuclear \u03b2-catenin, Ki-67, GPC3, AFP, and erythroid markers (GATA1/HBB) on tissue sections",
+    "Infer copy-number variation from scRNA-seq to assess malignancy of this cluster",
+    "TCF/LEF target qPCR or Wnt reporter in sorted tumor cells to confirm pathway activation",
+    "Spatial transcriptomics/RNAscope to localize erythroid versus tumor gene expression in situ"
   ]
 }

@@ -23,20 +23,22 @@
     "IGFBP7",
     "VCAN"
   ],
-  "ProliferationScore": "0.180",
-  "StemnessScore": "0.907",
-  "ImmuneScore": "0.476",
-  "PrognosticScore": "0.116",
+  "ProliferationScore": "0.180 (low)",
+  "StemnessScore": "0.907 (high)",
+  "ImmuneScore": "0.476 (intermediate)",
+  "PrognosticScore": "0.116 (low)",
   "SupportingEvidence": [
-    "The proliferation score is low (0.180), suggesting that the cells in this cluster are not rapidly dividing. This is consistent with the fibroblast identity of the cluster, as fibroblasts are typically not highly proliferative.",
-    "The stemness score is high (0.907), indicating that the cells in this cluster have a high degree of pluripotency. This is unusual for fibroblasts, and suggests that these cells may have undergone some form of dedifferentiation or transformation.",
-    "The immune infiltration score is intermediate (0.476), suggesting a moderate level of immune cell infiltration into the tumor. This could be indicative of an ongoing immune response to the tumor.",
-    "The prognostic signature score is low (0.116), suggesting a relatively good prognosis for this tumor. This is consistent with the low proliferation score, as less aggressive tumors tend to have lower proliferation rates."
+    "Strong ECM/CAF signature with collagens and proteoglycans (COL1A1/1A2/3A1/5A2/6A2/6A3, LUM, DCN, VCAN, MGP) indicating activated stromal fibroblasts.",
+    "Matricellular proteins POSTN, SPARC, IGFBP7, FSTL1 are characteristic of mesenchymal components seen in mixed epithelial\u2013mesenchymal hepatoblastoma.",
+    "VIM expression supports mesenchymal/CAF identity rather than epithelial tumor cells.",
+    "CXCL14 suggests stromal\u2013immune crosstalk typical of CAF-rich, mesenchyme-containing regions.",
+    "Lack of epithelial hepatoblastoma markers (e.g., AFP, EPCAM, DLK1, KRT8/18) argues against fetal or embryonal epithelial clusters; macrotrabecular is primarily an epithelial architectural pattern."
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the presence of fibroblast markers in the tumor cells.",
-    "Perform functional assays to assess the pluripotency of the tumor cells.",
-    "Perform flow cytometry to quantify the extent of immune cell infiltration into the tumor.",
-    "Perform a longitudinal study to monitor the progression of the tumor over time and validate the prognostic score."
+    "H&E review to identify mesenchymal elements (osteoid/chondroid) supporting mixed subtype.",
+    "IHC/IF for POSTN, COL1A1, SPARC, ACTA2 (\u03b1SMA) to confirm CAF activation; co-stain EPCAM and AFP to define epithelial components.",
+    "Spatial transcriptomics or multiplex RNA-ISH (e.g., RNAscope) for POSTN/COL1A1 and EPCAM/AFP to map stroma\u2013epithelium organization.",
+    "Assess TGF-\u03b2 pathway activation in fibroblasts (pSMAD2/3 staining) and myofibroblast markers.",
+    "Validate CXCL14 protein (IHC/ELISA) and profile neighboring immune cells by flow cytometry or imaging mass cytometry."
   ]
 }

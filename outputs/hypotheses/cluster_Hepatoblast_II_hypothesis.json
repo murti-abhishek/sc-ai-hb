@@ -1,6 +1,6 @@
 {
   "Cluster": "Hepatoblast_II",
-  "CandidateSubtype": "mixed",
+  "CandidateSubtype": "fetal",
   "TopGenes": [
     "ADH1B",
     "HSP90AA1",
@@ -23,19 +23,24 @@
     "MT-CO2",
     "AKR1C1"
   ],
-  "ProliferationScore": "0.180",
-  "StemnessScore": "0.511",
-  "ImmuneScore": "0.636",
-  "PrognosticScore": "0.314",
+  "ProliferationScore": "0.180 (low)",
+  "StemnessScore": "0.511 (intermediate)",
+  "ImmuneScore": "0.636 (intermediate)",
+  "PrognosticScore": "0.314 (low)",
   "SupportingEvidence": [
-    "Proliferation score is low, suggesting a slower growing tumor.",
-    "Stemness score is intermediate, indicating a mixed population of differentiated and stem-like cells, consistent with a mixed subtype.",
-    "High immune infiltration score suggests the presence of immune cells within the tumor, which could be a response to tumor antigens.",
-    "Prognostic score is low, indicating a better prognosis for this tumor subtype."
+    "Enrichment of hepatocyte metabolic genes (CYP2E1, BAAT, ADH1B, APOC1/APOE) consistent with differentiated fetal-like phenotype",
+    "GLUL (glutamine synthetase) indicates pericentral/WNT-activated hepatocyte identity common in fetal hepatoblastoma",
+    "Mitochondrial OXPHOS transcripts (MT-CO2, MT-CYB, MT-ATP6, MT-ND4) align with mature metabolic programs",
+    "Lack of classic embryonal/high-proliferation markers (e.g., MKI67, TOP2A, CCNB1) among top genes",
+    "REG3A, HLA-B, APCS reflect liver acute-phase/immune features but are not subtype-defining",
+    "Heat-shock chaperones (HSP90AA1, HSPA1A) suggest stress response without contradicting fetal identity"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the presence of immune cells within the tumor.",
-    "Conduct functional assays to assess the proliferative capacity of the tumor cells.",
-    "Perform in vitro differentiation assays to confirm the stem-like properties of the tumor cells."
+    "IHC/IF for GLUL, CYP2E1, BAAT, APOE/APOC1 to confirm hepatocyte differentiation",
+    "Ki-67 and TOP2A staining to exclude embryonal high-proliferation regions",
+    "Assess WNT activation: nuclear \u03b2-catenin (CTNNB1) and AXIN2/LEF1 expression",
+    "Functional assays: urea production, bile acid conjugation (BAAT activity), CYP2E1 activity",
+    "Spatial transcriptomics or multiplex IHC to correlate with fetal histology and detect mixed areas",
+    "Genetic profiling for CTNNB1 mutations and common HB CNAs to support subtype assignment"
   ]
 }

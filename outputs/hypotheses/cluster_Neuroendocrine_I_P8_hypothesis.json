@@ -23,20 +23,23 @@
     "GNAS",
     "CACYBP"
   ],
-  "ProliferationScore": "0.000",
-  "StemnessScore": "1.000",
-  "ImmuneScore": "0.000",
-  "PrognosticScore": "0.056",
+  "ProliferationScore": "0.000 (low)",
+  "StemnessScore": "1.000 (high)",
+  "ImmuneScore": "0.000 (low)",
+  "PrognosticScore": "0.056 (low)",
   "SupportingEvidence": [
-    "The proliferation score is very low, indicating that the cells in this cluster are not actively dividing.",
-    "The stemness score is very high, which is characteristic of embryonal subtype that is known to have a high degree of stemness.",
-    "The immune infiltration score is very low, suggesting that the tumor microenvironment is not highly infiltrated by immune cells.",
-    "The prognostic score is low, suggesting a better prognosis for this subtype."
+    "Neuroendocrine markers (CHGA, CHGB, SCG3, SCGN) and TFs (INSM1, NEUROD1) indicate a primitive neuroendocrine-like program typical of embryonal HB.",
+    "Absence of hepatocyte metabolic differentiation genes (e.g., ALB, TTR, APOs, CYPs) argues against a fetal phenotype.",
+    "Developmental/neuronal regulators (SYT4, APLP1, BTBD3, NR2F1) align with a less-differentiated progenitor state.",
+    "Profile lacks concurrent fetal signatures expected in mixed tumors, favoring a pure embryonal identity.",
+    "Macrotrabecular denotes architectural pattern rather than this neuroendocrine transcriptional program."
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the expression of top genes.",
-    "Conduct in vitro differentiation assays to confirm the high stemness score.",
-    "Carry out immune profiling to validate the low immune score.",
-    "Perform survival analysis to validate the low prognostic score."
+    "IHC/IF for CHGA, CHGB, INSM1, synaptophysin; compare with AFP, DLK1, EPCAM (embryonal) and HNF4A, ALB, TTR, CYP3A7 (fetal).",
+    "RNA ISH for INSM1 and NEUROD1 to validate neuroendocrine-like cells in situ.",
+    "Ki-67 staining to quantify proliferation and correlate with the neuroendocrine-like cluster.",
+    "Lineage marker panel (HNF4A/ALB for hepatocyte, KRT19/SOX9 for cholangiocyte) to exclude fetal/mixed phenotypes.",
+    "Spatial transcriptomics or multiplexed RNA profiling to map the neuroendocrine-like compartment.",
+    "Sphere-formation or differentiation assays to functionally assess progenitor/stem-like behavior."
   ]
 }

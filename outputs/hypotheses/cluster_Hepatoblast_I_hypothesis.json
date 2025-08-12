@@ -23,20 +23,22 @@
     "GLUL",
     "AZGP1"
   ],
-  "ProliferationScore": "0.086",
-  "StemnessScore": "0.000",
-  "ImmuneScore": "0.257",
-  "PrognosticScore": "0.490",
+  "ProliferationScore": "0.086 (low)",
+  "StemnessScore": "0.000 (low)",
+  "ImmuneScore": "0.257 (low)",
+  "PrognosticScore": "0.490 (intermediate)",
   "SupportingEvidence": [
-    "Low proliferation score indicates slow tumor growth.",
-    "No stemness score suggests lack of stem cell-like properties, which is consistent with the fetal subtype.",
-    "Intermediate immune infiltration score suggests some immune response, but not a highly inflamed tumor environment.",
-    "Intermediate prognostic score indicates moderate risk, which is consistent with the generally better prognosis of the fetal subtype.",
-    "Upregulation of genes such as FGA, FGG, APOE, and CYP2E1, which are associated with mature liver functions, supports the fetal subtype assignment."
+    "Enrichment of hepatocyte secretory/plasma proteins (FGA/FGB/FGG, F5, HP, ITIH1, VTN, AMBP) consistent with differentiated liver function",
+    "High apolipoprotein and transport gene expression (APOE, APOC3, AFM) typical of hepatocyte-like maturation",
+    "Strong metabolic/mitochondrial-hepatocyte program (CPS1, HMGCS2, ACADVL, GLUL, AOX1, CYP2E1) aligning with more differentiated fetal-type hepatoblastoma",
+    "Presence of complement component C3 and kininogen KNG1 further supports a mature hepatocytic secretory phenotype",
+    "Lack of classic embryonal/stem/proliferation markers among top genes (e.g., EPCAM, AFP, MKI67, TOP2A)"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the expression of top marker genes at the protein level.",
-    "Conduct in vitro proliferation assays to validate the low proliferation score.",
-    "Perform single-cell RNA sequencing on additional samples to validate the subtype assignment."
+    "IHC/IF for hepatocyte differentiation markers (CPS1, HMGCS2, GLUL, CYP2E1, HNF4A) and fibrinogen to validate mature hepatocytic identity",
+    "Assess embryonal features by IHC for EPCAM, AFP, GPC3 and proliferation (Ki-67) to exclude an embryonal or mixed component",
+    "Beta-catenin (CTNNB1) localization and GLUL zonation pattern to evaluate Wnt activation typical in hepatoblastoma",
+    "Functional assays of hepatocyte metabolism: urea synthesis (CPS1), ketogenesis (HMGCS2), and CYP2E1 activity",
+    "Spatial transcriptomics or multiplex IHC to detect architectural heterogeneity and rule out macrotrabecular/mixed patterns"
   ]
 }

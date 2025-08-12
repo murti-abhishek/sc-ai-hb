@@ -23,20 +23,23 @@
     "SERPINA6",
     "GPC3"
   ],
-  "ProliferationScore": "0.214",
-  "StemnessScore": "0.193",
-  "ImmuneScore": "0.329",
-  "PrognosticScore": "1.000",
+  "ProliferationScore": "0.214 (low)",
+  "StemnessScore": "0.193 (low)",
+  "ImmuneScore": "0.329 (low)",
+  "PrognosticScore": "1.000 (high)",
   "SupportingEvidence": [
-    "The proliferation score is low (0.214), indicating a slow-growing tumor which is consistent with the fetal subtype.",
-    "The stemness score is also low (0.193), suggesting the cells are more differentiated, a characteristic of the fetal subtype.",
-    "The immune infiltration score is intermediate (0.329), suggesting some immune response but not a high level of immune cell infiltration.",
-    "The prognostic score is high (1.000), indicating a poor prognosis. This could be due to other factors such as tumor location or size, not necessarily the subtype.",
-    "The top genes include AFP and ALB, which are markers for hepatoblastoma and more specifically the fetal subtype."
+    "Dominant hepatocyte differentiation/secretory program (ALB, APOB/APOA2/APOM, SERPINA1, TF, F2, SERPINA6, AHSG, ITIH2) consistent with fetal hepatocyte-like cells",
+    "Fetal liver/hepatoblast markers enriched (AFP, DLK1, GPC3, PEG10)",
+    "Lipid metabolism genes (ACSL4, SCD, ACADSB) indicate hepatocytic maturation rather than undifferentiated embryonal phenotype",
+    "No biliary/ductal markers (e.g., KRT19, EPCAM, SOX9) apparent, arguing against mixed cholangioblastic components",
+    "Top markers do not emphasize cell-cycle genes (e.g., MKI67, TOP2A), aligning with a more differentiated fetal subtype"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the expression of the top genes, especially AFP and ALB.",
-    "Carry out further genomic sequencing to identify any potential mutations or alterations that could be driving the high prognostic score.",
-    "Conduct in vitro studies to understand the tumor's response to various chemotherapeutic agents."
+    "IHC/IF for ALB, AFP, GPC3, DLK1, and HNF4A to confirm fetal hepatocyte-like identity",
+    "Assess biliary markers (KRT19, EPCAM, SOX9) to exclude mixed/embryonal components",
+    "Evaluate Wnt/\u03b2-catenin activation (nuclear \u03b2-catenin IHC; CTNNB1 mutation sequencing; GLUL/GS staining)",
+    "Functional hepatocyte assays (LDL uptake, albumin/urea secretion) in tumor-derived organoids",
+    "Spatial transcriptomics or multiplex IHC to assess architectural pattern and rule out macrotrabecular growth",
+    "DNA methylation or bulk RNA-based HB subtype classifier to orthogonally validate fetal classification"
   ]
 }

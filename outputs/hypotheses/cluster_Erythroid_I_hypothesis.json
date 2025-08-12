@@ -1,6 +1,6 @@
 {
   "Cluster": "Erythroid_I",
-  "CandidateSubtype": "Embryonal",
+  "CandidateSubtype": "mixed",
   "TopGenes": [
     "IL8",
     "SRGN",
@@ -23,20 +23,24 @@
     "TNFAIP3",
     "TMSB4X"
   ],
-  "ProliferationScore": "0.239",
-  "StemnessScore": "0.842",
-  "ImmuneScore": "1.000",
-  "PrognosticScore": "0.136",
+  "ProliferationScore": "0.239 (low)",
+  "StemnessScore": "0.842 (high)",
+  "ImmuneScore": "1.000 (high)",
+  "PrognosticScore": "0.136 (low)",
   "SupportingEvidence": [
-    "The proliferation score is low, which suggests a slower-growing tumor.",
-    "The stemness score is high, suggesting the presence of cancer stem cells that are characteristic of the embryonal subtype.",
-    "The immune infiltration score is high, indicating a strong immune response to the tumor, which is often seen in more aggressive subtypes like embryonal.",
-    "The prognostic score is low, suggesting a better overall prognosis."
+    "Dominant inflammatory myeloid markers (IL8, IL1B, S100A8, S100A9, LYZ, HLA-DRA, HLA-B, B2M) indicate immune infiltrate rather than epithelial tumor cells",
+    "Erythroid/hemoglobin gene (HBB) suggests erythroid lineage presence within the cluster",
+    "SRGN, CTSB, TIMP1, TNFAIP3 align with activated myeloid/granule biology",
+    "SPP1 (osteopontin) often marks inflammatory/microenvironmental remodeling",
+    "Lack of hepatoblastoma epithelial markers (e.g., ALB, AFP, EPCAM, KRT8/18, HNF4A) argues against a pure fetal/embryonal epithelial cluster",
+    "Overall profile supports a non-epithelial, microenvironment-rich context consistent with mixed histology at the tumor level"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the presence of cancer stem cells.",
-    "Conduct functional assays to assess the proliferative capacity of the tumor cells.",
-    "Investigate the immune response in more detail, for example by characterizing the infiltrating immune cell types.",
-    "Validate the prognostic score with clinical follow-up data."
+    "Immunostaining/spatial IHC for EPCAM/ALB/HNF4A vs CD68/LYZ/S100A8/S100A9 and hemoglobin to localize epithelial vs myeloid/erythroid cells",
+    "Single-cell CNV/inferCNV to distinguish malignant epithelial cells from non-malignant immune/erythroid cells",
+    "Subcluster and doublet removal analysis to separate erythroid and myeloid populations",
+    "Spatial transcriptomics to map immune/erythroid niches relative to tumor epithelium",
+    "Flow cytometry (EPCAM+ vs CD45+; CD14/CD16/FCGR3A; Glycophorin A) for cellular composition",
+    "Cytokine/chemokine profiling (e.g., IL8, IL1B) and myeloid functional assays to assess inflammatory activity"
   ]
 }

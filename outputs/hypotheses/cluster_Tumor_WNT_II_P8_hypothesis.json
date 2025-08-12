@@ -23,20 +23,23 @@
     "XIST",
     "GAPDH"
   ],
-  "ProliferationScore": "0.167",
-  "StemnessScore": "0.526",
-  "ImmuneScore": "0.075",
-  "PrognosticScore": "0.108",
+  "ProliferationScore": "0.167 (low)",
+  "StemnessScore": "0.526 (intermediate)",
+  "ImmuneScore": "0.075 (low)",
+  "PrognosticScore": "0.108 (low)",
   "SupportingEvidence": [
-    "The proliferation score is low, indicating a slower rate of cell division, which is more characteristic of the embryonal subtype.",
-    "The stemness score is intermediate, suggesting a degree of cellular differentiation, which is consistent with the embryonal subtype.",
-    "The immune infiltration score is low, indicating a lack of immune response, which is typical for embryonal hepatoblastoma.",
-    "The prognostic score is low, suggesting a better prognosis, which is more common in the embryonal subtype."
+    "WNT/\u03b2-catenin target and feedback genes (NOTUM, NKD1, APCDD1, TMEM9, TNFRSF19) indicate active WNT signaling typical of embryonal HB",
+    "Progenitor/stem-associated markers (SOX4, NES) align with an immature embryonal phenotype",
+    "Glycolytic/oxidative stress programs (PKM, GAPDH, NQO1, TXNRD1) fit less differentiated tumor cells",
+    "Motility/EMT-related genes (ENAH, CLDN11) support a less differentiated, migratory state",
+    "Growth and Hippo/YAP pathway interplay (HDGF, VGLL4) often seen in embryonal-like HB"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the expression of the top genes and validate the subtype assignment.",
-    "Carry out functional studies to understand the role of these genes in tumor biology.",
-    "Investigate the tumor microenvironment to understand the low immune infiltration score.",
-    "Conduct longitudinal studies to validate the prognostic score."
+    "Validate WNT activation: nuclear \u03b2-catenin IHC; qPCR for AXIN2/LGR5; TCF/LEF reporter assays",
+    "Perturb WNT signaling: PORCN inhibitor (e.g., LGK974) or NOTUM blockade; assess viability and WNT target expression",
+    "Profile lineage markers: IHC/flow for EPCAM, AFP, PROM1 versus fetal/hepatocyte markers (HNF4A, TTR, CYP3A4)",
+    "Functional stemness assays: tumorsphere/organoid formation and limiting dilution",
+    "Validate EMT/motility markers (ENAH, CLDN11) and progenitor markers (SOX4, NES) by IHC/IF; migration/invasion assays",
+    "Single-cell trajectory and gene set scoring to compare embryonal vs fetal programs; infer CNVs to confirm tumor identity"
   ]
 }
