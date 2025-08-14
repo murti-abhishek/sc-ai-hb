@@ -1,0 +1,46 @@
+{
+  "Cluster": "16",
+  "CandidateSubtype": "fetal",
+  "TopGenes": [
+    "PEG10",
+    "FST",
+    "NKD1",
+    "LEPR",
+    "RNA28S5",
+    "DSP",
+    "SERPINI1",
+    "FREM1",
+    "APOB",
+    "ITGA6",
+    "FGL2",
+    "APLP2",
+    "FRAS1",
+    "APCDD1",
+    "PDIA4",
+    "IGF2",
+    "SCD",
+    "AFP",
+    "REG3A",
+    "ATP1A1"
+  ],
+  "ProliferationScore": "0.187 (low)",
+  "StemnessScore": "0.181 (low)",
+  "ImmuneScore": "0.194 (low)",
+  "PrognosticScore": "0.891 (high)",
+  "SupportingEvidence": [
+    "APOB, SCD, FGL2, ATP1A1, and PDIA4 indicate hepatocyte metabolic/differentiation programs typical of fetal-like hepatoblastoma",
+    "AFP and IGF2 are classic fetal liver/hepatoblastoma markers",
+    "Wnt pathway targets (NKD1, APCDD1) align with HB biology and are compatible with fetal phenotype",
+    "Relative absence of strong cell-cycle markers (e.g., MKI67, TOP2A) supports a more differentiated epithelial state",
+    "ITGA6 reflects progenitor/fetal hepatocyte features without overt cholangioblastic signatures",
+    "Secreted/regenerative factors (FST, REG3A) are consistent with fetal liver-like signaling milieu"
+  ],
+  "SuggestedExperiments": [
+    "IHC/IF for AFP, HNF4A, ALB/APOB, and HepPar-1 to confirm hepatocyte-like fetal differentiation",
+    "IHC for EPCAM and KRT19 to exclude embryonal/cholangioblastic features",
+    "Assess Wnt activation: nuclear \u03b2-catenin IHC and AXIN2/NKD1 expression; sequence CTNNB1",
+    "Ki-67 IHC to quantify proliferation index",
+    "Metabolic assays (albumin secretion, urea production; lipid metabolism markers such as SCD activity)",
+    "Single-cell trajectory mapping against fetal hepatocyte references and spatial transcriptomics to localize the fetal-like compartment"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "Cluster": "10",
+  "CandidateSubtype": "mixed",
+  "TopGenes": [
+    "COL3A1",
+    "COL1A2",
+    "COL1A1",
+    "SPARC",
+    "DCN",
+    "LUM",
+    "MTRNR2L1",
+    "COL6A3",
+    "COL5A2",
+    "POSTN",
+    "FSTL1",
+    "MGP",
+    "CXCL14",
+    "VIM",
+    "VCAN",
+    "MALAT1",
+    "COL6A2",
+    "IGFBP5",
+    "CCDC80",
+    "COL6A1"
+  ],
+  "ProliferationScore": "0.169 (low)",
+  "StemnessScore": "0.726 (high)",
+  "ImmuneScore": "0.337 (low)",
+  "PrognosticScore": "0.141 (low)",
+  "SupportingEvidence": [
+    "Strong ECM/mesenchymal program with collagens (COL1A1/1A2/3A1/5A2/6A1/6A2/6A3), matricellular proteins (SPARC, POSTN), and proteoglycans (DCN, LUM, VCAN), typical of mesenchymal components in mixed hepatoblastoma.",
+    "Vimentin (VIM) and IGFBP5 support fibroblast/myofibroblast or mesenchymal differentiation.",
+    "CXCL14 is commonly secreted by cancer-associated fibroblasts/stellate cells, aligning with a mixed epithelial\u2013mesenchymal context.",
+    "Absence of hepatocytic/fetal markers (e.g., ALB, AFP, APO genes) and lack of prominent cell-cycle drivers (e.g., MKI67, TOP2A) argues against pure fetal or embryonal subtypes; no clear macrotrabecular angiogenic/endothelial signature."
+  ],
+  "SuggestedExperiments": [
+    "IHC/IF for VIM, COL1A1/COL1A2, POSTN, DCN/LUM, and ACTA2 (\u03b1-SMA) to confirm mesenchymal/CAF phenotype.",
+    "Co-stain for epithelial markers (EPCAM, KRT8/18, AFP) to assess mixed epithelial\u2013mesenchymal composition.",
+    "Spatial transcriptomics or multiplex RNA ISH (e.g., RNAscope for COL1A1/POSTN/CXCL14) to localize ECM-rich cells and architecture.",
+    "Infer CNVs from scRNA profiles to distinguish malignant mesenchymal cells from stromal CAFs; validate with FISH if needed.",
+    "Masson's trichrome or Sirius Red staining to quantify collagen deposition."
+  ]
+}

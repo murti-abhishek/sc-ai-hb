@@ -1,26 +1,45 @@
 {
   "Cluster": "1",
-  "CandidateSubtype": "Embryonal",
+  "CandidateSubtype": "mixed",
   "TopGenes": [
-    "COL3A1",
-    "COL1A2",
-    "COL1A1",
-    "SPARC",
+    "HBB",
+    "SRGN",
+    "MT-CO1",
+    "IL8",
+    "S100A9",
     "MTRNR2L1",
-    "LUM",
-    "DCN",
-    "CXCL14",
-    "COL6A3",
-    "VIM"
+    "SPP1",
+    "IL1B",
+    "S100A8",
+    "TMSB10",
+    "CTSB",
+    "B2M",
+    "FTH1",
+    "LYZ",
+    "CLU",
+    "MT-ND1",
+    "HLA-B",
+    "TIMP1",
+    "FTL",
+    "MT-RNR2"
   ],
+  "ProliferationScore": "0.272 (low)",
+  "StemnessScore": "0.658 (intermediate)",
+  "ImmuneScore": "0.505 (intermediate)",
+  "PrognosticScore": "0.144 (low)",
   "SupportingEvidence": [
-    "Upregulation of collagen genes (COL3A1, COL1A2, COL1A1, COL6A3) suggests a mesenchymal phenotype, which is characteristic of embryonal subtype.",
-    "SPARC, a matricellular protein involved in tissue remodeling, is often upregulated in embryonal subtype.",
-    "VIM (Vimentin) is a marker of epithelial to mesenchymal transition, supporting the embryonal subtype."
+    "Strong myeloid/inflammatory signature (S100A8/S100A9, IL1B, IL8, LYZ, SRGN, HLA-B/B2M).",
+    "SPP1, TIMP1, CTSB, CLU suggest ECM remodeling/invasiveness consistent with heterogeneous tumor regions.",
+    "Lack of hepatocyte differentiation markers (e.g., ALB, TTR, CPS1, GLUL, ASS1) argues against a pure fetal phenotype.",
+    "Absence of prominent cell-cycle genes (e.g., MKI67, TOP2A) makes a purely embryonal identity less likely.",
+    "Presence of HBB implies admixture with non-epithelial cells, supporting a heterogeneous/mixed context."
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry for COL1A1, COL1A2, and VIM to confirm the mesenchymal phenotype.",
-    "Investigate the presence of other embryonal subtype markers, such as AFP, through qPCR.",
-    "Perform single-cell RNA sequencing on additional tumor samples to validate these findings."
+    "IHC/IF for EPCAM, AFP, KRT19, ALB, and SPP1 to map epithelial tumor vs stromal/immune components.",
+    "IHC/flow for myeloid markers (CD68/CD163, S100A8/A9, LYZ; MPO) to validate inflammatory infiltration.",
+    "Single-cell inferCNV or copy-number profiling to separate malignant epithelial cells from immune cells.",
+    "Spatial transcriptomics or multiplex RNA-ISH for SPP1, IL1B, S100A8/A9, EPCAM.",
+    "Re-cluster after removing immune cells; enrich/sort EPCAM+ cells to refine tumor subtype assignment.",
+    "Correlate with histology for macrotrabecular architecture and mixed features."
   ]
 }

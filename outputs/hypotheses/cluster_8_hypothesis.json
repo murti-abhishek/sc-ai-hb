@@ -1,26 +1,44 @@
 {
   "Cluster": "8",
-  "CandidateSubtype": "Embryonal",
+  "CandidateSubtype": "mixed",
   "TopGenes": [
-    "MYH7B",
-    "MATN3",
-    "APCDD1",
-    "CHGB",
-    "ROBO1",
-    "ITGA8",
-    "NKD1",
-    "BMP4",
-    "NRP2",
-    "ZNRF3"
+    "LUM",
+    "FSTL1",
+    "COL6A3",
+    "TNFRSF11B",
+    "FGFR1",
+    "ANTXR1",
+    "WNT5A",
+    "FBLN1",
+    "COL5A2",
+    "COL6A2",
+    "COL1A2",
+    "EMP1",
+    "SPARC",
+    "COL6A1",
+    "CYR61",
+    "MMP2",
+    "IGFBP3",
+    "CXCL14",
+    "CTSB",
+    "MXRA8"
   ],
+  "ProliferationScore": "0.327 (low)",
+  "StemnessScore": "0.675 (high)",
+  "ImmuneScore": "0.247 (low)",
+  "PrognosticScore": "0.134 (low)",
   "SupportingEvidence": [
-    "BMP4 is involved in embryonic development and tissue homeostasis, suggesting an embryonal subtype.",
-    "ROBO1 and NRP2 are associated with axon guidance during embryonic development, further supporting the embryonal subtype.",
-    "APCDD1 and ZNRF3 are involved in the Wnt signaling pathway, which is often dysregulated in embryonal tumors."
+    "Strong extracellular matrix/CAF program (COL1A2/COL5A2/COL6A1-3, LUM, FBLN1, SPARC, MMP2, CXCL14) consistent with mesenchymal components of mixed hepatoblastoma.",
+    "Non-canonical WNT signaling (WNT5A) and matricellular factors (CYR61, IGFBP3) indicate stromal\u2013tumor crosstalk typical of mixed tumors.",
+    "ANTXR1 and FGFR1 expression aligns with tumor-associated fibroblast/endothelial\u2013mesenchymal populations rather than pure epithelial fetal/embryonal cells.",
+    "Absence of hepatocyte differentiation markers (e.g., ALB, TTR, APOA1) and classic cell-cycle drivers argues against fetal or embryonal dominance.",
+    "TNFRSF11B suggests osteogenic/chondrogenic stromal features often seen in mixed epithelial\u2013mesenchymal HB."
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the expression of these genes at the protein level.",
-    "Investigate the activation status of the Wnt signaling pathway in this cluster.",
-    "Perform in vitro differentiation assays to confirm the embryonal phenotype."
+    "IHC/IF for CAF markers (ACTA2/\u03b1SMA, FAP, PDGFR\u03b2) and epithelial markers (EPCAM, KRT8/18) to define cell identity and mixed phenotype.",
+    "Spatial transcriptomics or multiplex RNA-ISH (WNT5A, LUM, COL1A2, SPARC) to map mesenchymal niches relative to tumor epithelium.",
+    "Single-cell CNV inference (e.g., inferCNV) or scDNA to distinguish malignant from stromal cells.",
+    "Ligand\u2013receptor analysis and co-culture perturbations (WNT5A or FGFR1 inhibition) to test stromal influence on tumor cells.",
+    "Assess collagen deposition and MMP2 activity; evaluate response to TGF-\u03b2 pathway inhibition to probe CAF programs."
   ]
 }

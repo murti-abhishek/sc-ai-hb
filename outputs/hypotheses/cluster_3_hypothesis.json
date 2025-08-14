@@ -1,30 +1,44 @@
 {
   "Cluster": "3",
-  "CandidateSubtype": "fetal",
+  "CandidateSubtype": "mixed",
   "TopGenes": [
-    "ADH1B",
-    "GLUL",
-    "HSP90AA1",
-    "HSPA1A",
-    "CYP2E1",
-    "REG3A",
-    "MALAT1",
-    "MT-RNR2",
-    "APOC1",
-    "APCS"
+    "TOP2A",
+    "MKI67",
+    "APOB",
+    "AFP",
+    "ITIH2",
+    "SERPINA1",
+    "RNA28S5",
+    "AHSG",
+    "CENPF",
+    "IGF2",
+    "SPINK1",
+    "APOM",
+    "PEG10",
+    "ACADSB",
+    "GPC3",
+    "TF",
+    "AHCY",
+    "DLK1",
+    "ACSL4",
+    "APOA2"
   ],
+  "ProliferationScore": "0.641 (intermediate)",
+  "StemnessScore": "0.195 (low)",
+  "ImmuneScore": "0.213 (low)",
+  "PrognosticScore": "0.992 (high)",
   "SupportingEvidence": [
-    "ADH1B is involved in ethanol metabolism, which is a characteristic of fetal liver cells.",
-    "GLUL is involved in ammonia detoxification, a function of mature hepatocytes, indicating a more differentiated, fetal-like state.",
-    "HSP90AA1 and HSPA1A are heat shock proteins that are typically upregulated in response to stress, which could be indicative of the tumor environment.",
-    "CYP2E1 is involved in drug metabolism and is typically expressed in mature hepatocytes, again suggesting a more differentiated, fetal-like state.",
-    "REG3A is a hepatocytic growth factor that could be involved in the proliferation of the tumor cells.",
-    "MALAT1 and MT-RNR2 are non-coding RNAs that have been associated with various cancers, including hepatoblastoma.",
-    "APOC1 and APCS are involved in lipid metabolism, a function of mature hepatocytes, indicating a more differentiated, fetal-like state."
+    "Co-expression of embryonal/progenitor markers: DLK1, IGF2, PEG10, GPC3, AFP",
+    "Concurrent high expression of fetal hepatocyte/metabolic genes: APOB, APOA2, SERPINA1, TF, AHSG, APOM",
+    "Strong cell-cycle markers (TOP2A, MKI67, CENPF) indicating a proliferative compartment",
+    "IGF2 and DLK1 upregulation consistent with 11p15 dysregulation commonly seen in hepatoblastoma",
+    "AFP and GPC3 overexpression characteristic of hepatoblastoma, including embryonal areas"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the expression of these genes at the protein level.",
-    "Perform functional studies to determine the role of these genes in the growth and survival of the tumor cells.",
-    "Investigate the potential of these genes as therapeutic targets."
+    "Immunohistochemistry: GPC3, DLK1, AFP, Ki-67; add HepPar-1/ALB to gauge hepatocytic differentiation",
+    "Assess Wnt/\u03b2-catenin activation: CTNNB1 sequencing and nuclear \u03b2-catenin IHC; AXIN2 expression",
+    "11p15 (IGF2/H19) methylation and loss-of-imprinting analysis",
+    "Spatial transcriptomics or multiplex RNA-ISH to map co-localization of embryonal and fetal markers",
+    "Single-cell cell-cycle phase assignment and RNA velocity to confirm proliferative dynamics"
   ]
 }

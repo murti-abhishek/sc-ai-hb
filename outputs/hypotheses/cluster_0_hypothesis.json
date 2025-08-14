@@ -2,25 +2,44 @@
   "Cluster": "0",
   "CandidateSubtype": "fetal",
   "TopGenes": [
-    "AFP",
-    "AHSG",
-    "APOB",
-    "ITIH2",
-    "APOM",
-    "APOA2",
-    "DLK1",
-    "SPINK1",
-    "SERPINA1",
-    "ACSL4"
+    "KNG1",
+    "APOE",
+    "CYP2E1",
+    "APOC3",
+    "AOX1",
+    "HMGCS2",
+    "FGA",
+    "FGG",
+    "AFM",
+    "ADH4",
+    "COL18A1",
+    "ITIH1",
+    "APOA1",
+    "SULT2A1",
+    "AMBP",
+    "ADH1A",
+    "FGB",
+    "VTN",
+    "RARRES2",
+    "CPS1"
   ],
+  "ProliferationScore": "0.070 (low)",
+  "StemnessScore": "0.000 (low)",
+  "ImmuneScore": "0.179 (low)",
+  "PrognosticScore": "0.543 (intermediate)",
   "SupportingEvidence": [
-    "AFP and DLK1 are markers of fetal liver cells and their high expression suggests a fetal subtype.",
-    "APOB, APOM, APOA2 are involved in lipid metabolism, a characteristic feature of fetal hepatocytes.",
-    "AHSG, ITIH2, SERPINA1, and SPINK1 are associated with serum protein synthesis, another feature of fetal hepatocytes."
+    "Dominant mature hepatocyte metabolic program (CPS1 urea cycle, HMGCS2 ketogenesis, CYP2E1/AOX1/ADH1A/ADH4 xenobiotic metabolism)",
+    "Enrichment of liver-secreted plasma proteins (APOA1/APOE/APOC3, FGA/FGB/FGG, KNG1, ITIH1, AMBP, VTN, AFM)",
+    "Markers align with differentiated hepatocyte identity typical of fetal-type hepatoblastoma",
+    "Lack of progenitor/cholangioblastic markers (e.g., EPCAM, KRT19, AFP, DLK1) among top genes argues against embryonal/mixed components",
+    "No evidence of high-proliferation/angiogenic signatures expected for macrotrabecular patterns"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the expression of these genes at the protein level.",
-    "Carry out functional assays to understand the role of these genes in tumor biology.",
-    "Investigate the mutational status of these genes in the tumor cells."
+    "IHC/IF for CPS1, HMGCS2, CYP2E1, APOA1, HNF4A to confirm hepatocyte differentiation",
+    "IHC for EPCAM, KRT19, AFP, GPC3, DLK1 to exclude embryonal/mixed components",
+    "Ki-67 staining to validate low proliferative fraction",
+    "Functional assays: urea production, CYP2E1 activity, and ketone body output (HMGCS2) in sorted cluster-0 cells",
+    "Histopathology review (H&E) for fetal morphology and absence of macrotrabecular architecture",
+    "Spatial transcriptomics or RNA in situ for CPS1/HMGCS2 to localize fetal-like regions"
   ]
 }

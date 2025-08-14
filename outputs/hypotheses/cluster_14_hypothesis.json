@@ -1,0 +1,45 @@
+{
+  "Cluster": "14",
+  "CandidateSubtype": "embryonal",
+  "TopGenes": [
+    "HBG1",
+    "HBG2",
+    "FST",
+    "FGL2",
+    "TUBB",
+    "STMN1",
+    "EPB41",
+    "TFRC",
+    "HBA1",
+    "HBA2",
+    "MYH7B",
+    "EIF2AK1",
+    "SERPINI1",
+    "FREM1",
+    "SMC4",
+    "APCDD1",
+    "NKD1",
+    "MKI67",
+    "ABHD2",
+    "WNK1"
+  ],
+  "ProliferationScore": "1.000 (high)",
+  "StemnessScore": "0.305 (low)",
+  "ImmuneScore": "0.301 (low)",
+  "PrognosticScore": "0.068 (low)",
+  "SupportingEvidence": [
+    "Strong proliferation/cell-cycle signature (MKI67, STMN1, SMC4, TUBB) consistent with embryonal phenotype",
+    "Wnt/\u03b2-catenin pathway targets/regulators up (NKD1, APCDD1), characteristic of embryonal hepatoblastoma",
+    "TFRC elevation aligns with rapidly dividing, less-differentiated tumor cells",
+    "Lack of mature hepatocyte markers among top genes argues against fetal subtype",
+    "Erythroid markers (HBG1/2, HBA1/2, EPB41) suggest erythroid contamination within this cluster"
+  ],
+  "SuggestedExperiments": [
+    "Immunostaining for nuclear \u03b2-catenin and Ki-67 to confirm Wnt activation and high proliferation",
+    "qPCR/ISH for Wnt targets (NKD1, APCDD1, AXIN2) in sorted tumor cells",
+    "Flow sort to remove erythroid cells (CD235a/GYPA+) and re-cluster to verify tumor identity",
+    "InferCNV or similar scRNA CNV analysis to confirm malignant copy-number patterns",
+    "Co-staining/flow for EPCAM/AFP vs ALB to differentiate embryonal vs fetal phenotypes",
+    "Assess FST/FGL2 protein levels (ELISA/ multiplex) to support transcript findings"
+  ]
+}

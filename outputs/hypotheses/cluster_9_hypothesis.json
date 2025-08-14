@@ -1,0 +1,48 @@
+{
+  "Cluster": "9",
+  "CandidateSubtype": "mixed",
+  "TopGenes": [
+    "S100A8",
+    "COL1A2",
+    "COL3A1",
+    "CXCL14",
+    "COL1A1",
+    "S100A9",
+    "SPARC",
+    "TMSB4X",
+    "MTRNR2L1",
+    "POSTN",
+    "TMSB10",
+    "VIM",
+    "SRGN",
+    "FOS",
+    "LUM",
+    "DCN",
+    "DEFA3",
+    "B2M",
+    "IGFBP3",
+    "COL6A3"
+  ],
+  "ProliferationScore": "0.194 (low)",
+  "StemnessScore": "0.758 (high)",
+  "ImmuneScore": "0.428 (intermediate)",
+  "PrognosticScore": "0.090 (low)",
+  "SupportingEvidence": [
+    "Robust ECM/mesenchymal program (COL1A1, COL1A2, COL3A1, COL6A3, POSTN, SPARC, LUM, DCN) consistent with mesenchymal component of mixed hepatoblastoma.",
+    "VIM and thymosin beta genes (TMSB4X/TMSB10) indicate cytoskeletal remodeling/EMT-like features rather than differentiated hepatocyte identity.",
+    "S100A8/S100A9, DEFA3, CXCL14, and SRGN suggest inflammatory myeloid\u2013CAF interactions commonly seen in mixed tumors.",
+    "Lack of canonical fetal hepatocyte markers (e.g., ALB, TTR, APOA genes, HNF4A) argues against fetal subtype.",
+    "Absence of classic embryonal markers and cell-cycle genes (EPCAM, DLK1, LIN28B, MKI67/TOP2A) argues against embryonal subtype.",
+    "Macrotrabecular is primarily architectural; the dominant mesenchymal/ECM signature better supports a mixed epithelial\u2013mesenchymal context."
+  ],
+  "SuggestedExperiments": [
+    "IHC/IF panel for COL1A1, POSTN, SPARC, VIM, EPCAM, and ALB to define mesenchymal vs epithelial components.",
+    "Co-stain CAF markers (FAP, PDGFRB) and myeloid/granulocyte markers (S100A8/A9, MPO) to profile stromal\u2013immune elements.",
+    "Spatial transcriptomics or multiplex RNA-ISH for COL1A1/POSTN and S100A8/S100A9 to map localization within tumor.",
+    "Infer CNVs from scRNA-seq to determine if this cluster is malignant versus stromal.",
+    "\u03b2-catenin (CTNNB1) IHC and AXIN2 RNA-ISH to assess Wnt pathway activity typical of hepatoblastoma.",
+    "Masson's trichrome or picrosirius red staining to visualize collagen-rich/POSTN-positive stroma.",
+    "Flow cytometry sorting of EPCAM+ versus THY1+/PDGFRB+ cells followed by transcriptomic profiling.",
+    "3D collagen gel contraction or tumor\u2013CAF co-culture assays to test ECM remodeling functions."
+  ]
+}

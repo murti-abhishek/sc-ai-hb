@@ -2,26 +2,43 @@
   "Cluster": "4",
   "CandidateSubtype": "fetal",
   "TopGenes": [
-    "KNG1",
-    "APOE",
+    "ADH1B",
+    "HSP90AA1",
+    "GLUL",
+    "HSPA1A",
     "CYP2E1",
-    "APOC3",
-    "FGA",
-    "FGG",
-    "AOX1",
-    "HMGCS2",
-    "ADH4",
-    "APOA1"
+    "REG3A",
+    "MT-RNR2",
+    "MALAT1",
+    "APOC1",
+    "APCS",
+    "BAAT",
+    "MT-ND4",
+    "HLA-B",
+    "MT-CYB",
+    "MT-ATP6",
+    "NEAT1",
+    "APOE",
+    "FTH1",
+    "MT-CO2",
+    "AKR1C1"
   ],
+  "ProliferationScore": "0.180 (low)",
+  "StemnessScore": "0.444 (intermediate)",
+  "ImmuneScore": "0.474 (intermediate)",
+  "PrognosticScore": "0.312 (low)",
   "SupportingEvidence": [
-    "APOE, APOC3, and APOA1 are associated with lipid metabolism, a key feature of fetal hepatoblastoma subtype.",
-    "HMGCS2 is involved in ketogenesis, a process active in fetal liver.",
-    "CYP2E1 and ADH4 are involved in drug metabolism and alcohol dehydrogenation, respectively, which are functions of mature hepatocytes seen in the fetal subtype.",
-    "FGA and FGG are involved in the coagulation cascade, which is active in the fetal liver."
+    "Enrichment of mature hepatocyte metabolic genes (CYP2E1, BAAT, ADH1B, APOE/APOC1) indicates differentiated hepatocyte-like identity",
+    "GLUL (glutamine synthetase) consistent with pericentral hepatocyte program and Wnt/\u03b2-catenin\u2013driven fetal hepatoblastoma regions",
+    "Lack of progenitor/cholangioblastic markers (e.g., EPCAM, KRT19, DLK1) and cell-cycle genes argues against embryonal or macrotrabecular phenotypes",
+    "Mitochondrial OXPHOS gene upregulation (MT-CO2, MT-CYB, MT-ATP6, MT-ND4) supports oxidative, hepatocyte-like metabolism",
+    "Acute-phase/lipoprotein genes (APCS, APOE, APOC1) align with differentiated hepatic function"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry for APOE, APOC3, and APOA1 to confirm protein expression.",
-    "Assess lipid metabolism in the tumor cells to confirm the fetal subtype.",
-    "Perform functional assays to assess the activity of the coagulation cascade and drug metabolism pathways."
+    "IHC/IF for GLUL, CYP2E1, HepPar-1/ARG1 to confirm hepatocyte differentiation",
+    "IHC for EPCAM, KRT19, DLK1 to exclude embryonal/cholangioblastic components",
+    "Ki-67 staining to verify low proliferative fraction",
+    "Assess \u03b2-catenin (CTNNB1) nuclear localization; test AXIN2 and sequence CTNNB1",
+    "Spatial transcriptomics or multiplex IHC to map fetal-like regions within the tumor"
   ]
 }

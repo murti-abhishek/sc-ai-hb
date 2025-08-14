@@ -1,30 +1,43 @@
 {
   "Cluster": "7",
-  "CandidateSubtype": "fetal",
+  "CandidateSubtype": "mixed",
   "TopGenes": [
-    "TFRC",
-    "STMN1",
-    "TUBB",
-    "FST",
-    "HBG1",
-    "HBG2",
+    "MYH7B",
+    "MATN3",
+    "APCDD1",
+    "CHGB",
+    "ROBO1",
+    "NKD1",
+    "NRP2",
+    "BMP4",
+    "GNAS",
+    "PLAT",
+    "TMX4",
+    "ZNRF3",
+    "PTN",
+    "ITGA8",
+    "TGFB2",
+    "CTSH",
     "SERPINI1",
-    "FGL2",
-    "EPB41",
-    "MYH7B"
+    "BGN",
+    "ZNF503",
+    "LAMC1"
   ],
+  "ProliferationScore": "0.080 (low)",
+  "StemnessScore": "0.751 (high)",
+  "ImmuneScore": "0.182 (low)",
+  "PrognosticScore": "0.000 (low)",
   "SupportingEvidence": [
-    "TFRC, STMN1, and TUBB are involved in cell proliferation and differentiation, common in fetal subtype.",
-    "FST is involved in growth regulation, a feature of fetal subtype.",
-    "HBG1 and HBG2 are fetal hemoglobin genes, indicating a more immature, fetal-like state.",
-    "SERPINI1 and FGL2 are associated with coagulation and inflammation, common in fetal subtype.",
-    "EPB41 is involved in cell shape changes, common in fetal subtype.",
-    "MYH7B is a myosin gene, often upregulated in muscle tissue, consistent with the mesenchymal component of fetal subtype."
+    "Strong mesenchymal/ECM program (MATN3, BGN, LAMC1, ITGA8, PLAT) and TGFB2 suggesting EMT and stromal differentiation",
+    "Wnt/\u03b2-catenin feedback targets (APCDD1, NKD1, ZNRF3) consistent with canonical HB signaling",
+    "Developmental/morphogenetic factors (BMP4, PTN) and guidance receptors (ROBO1, NRP2) typical of progenitor-like mixed epithelial\u2013mesenchymal states",
+    "Divergent differentiation signals (MYH7B muscle, CHGB/SERPINI1 neuroendocrine/neuronal) argue against purely fetal or embryonal epithelial identity"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry for TFRC, STMN1, TUBB, FST, HBG1, HBG2, SERPINI1, FGL2, EPB41, MYH7B to confirm protein expression.",
-    "Perform functional assays to assess the role of these genes in cell proliferation, differentiation, and growth regulation.",
-    "Investigate the role of these genes in coagulation and inflammation in hepatoblastoma.",
-    "Perform single-cell RNA sequencing on other hepatoblastoma subtypes for comparison."
+    "IHC/IF for epithelial (EPCAM, KRT8/18) and mesenchymal/chondroid markers (VIM, MATN3, SOX9, COL2A1)",
+    "\u03b2-catenin localization (nuclear IHC) and Wnt target readouts (AXIN2, GLUL, APCDD1/NKD1 by qPCR/ISH)",
+    "Assess TGF-\u03b2 activity (pSMAD2/3 IHC) and ECM deposition (LAMC1, BGN)",
+    "Evaluate ROBO1/NRP2 and angiogenesis markers (CD34) spatially",
+    "Functional assays: tumorsphere formation and migration/invasion to confirm progenitor/EMT features"
   ]
 }

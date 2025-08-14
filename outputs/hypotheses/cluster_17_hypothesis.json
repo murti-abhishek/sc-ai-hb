@@ -1,0 +1,45 @@
+{
+  "Cluster": "17",
+  "CandidateSubtype": "fetal",
+  "TopGenes": [
+    "AHSG",
+    "AFP",
+    "DLK1",
+    "APOA2",
+    "APOB",
+    "ITIH2",
+    "SPINK1",
+    "SERPINA1",
+    "APOM",
+    "LIPA",
+    "F2",
+    "SEPP1",
+    "ACADSB",
+    "ACSL4",
+    "APOH",
+    "LGMN",
+    "APOA1",
+    "RNA28S5",
+    "PEG10",
+    "PSAP"
+  ],
+  "ProliferationScore": "0.000 (low)",
+  "StemnessScore": "0.000 (low)",
+  "ImmuneScore": "0.000 (low)",
+  "PrognosticScore": "0.000 (low)",
+  "SupportingEvidence": [
+    "Enrichment of hepatocyte secretory/metabolic genes (APOA1/A2, APOB, APOH, APOM, SERPINA1, SEPP1, F2) indicates a differentiated hepatocytic program.",
+    "AHSG (fetuin-A) and AFP are classic fetal hepatocyte/oncofetal markers characteristic of fetal hepatoblastoma.",
+    "Presence of lipid and amino-acid metabolism genes (ACSL4, ACADSB, LIPA, PSAP) aligns with hepatocyte functional maturation typical of the fetal subtype.",
+    "DLK1 and PEG10 are oncofetal genes frequently expressed in hepatoblastoma and compatible with a fetal-like phenotype.",
+    "Relative lack of cell-cycle markers with strong hepatic synthetic function supports a differentiated (fetal) state."
+  ],
+  "SuggestedExperiments": [
+    "Immunohistochemistry: AFP, AHSG, DLK1, GPC3, HepPar-1 (CPS1) to confirm hepatocytic differentiation and oncofetal status.",
+    "Assess Wnt/\u03b2-catenin activation: nuclear \u03b2-catenin IHC and CTNNB1 mutation testing.",
+    "Flow cytometry or IHC for EPCAM to help exclude an embryonal phenotype (typically EPCAM-high).",
+    "Correlate with histology for fetal morphology (trabecular/rosette patterns with differentiated cytology); PAS for glycogen.",
+    "Functional assays or ELISA for secreted apolipoproteins (APOA1/2, APOB) to validate hepatocyte-like function.",
+    "Spatial transcriptomics or RNA-ISH (AFP, DLK1) to map fetal-like cells within the tumor."
+  ]
+}

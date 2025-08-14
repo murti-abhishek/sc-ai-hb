@@ -1,26 +1,45 @@
 {
   "Cluster": "5",
-  "CandidateSubtype": "embryonal",
+  "CandidateSubtype": "mixed",
   "TopGenes": [
-    "CHGB",
-    "PCSK1N",
-    "PBXIP1",
-    "CHGA",
-    "MAP1B",
-    "TUSC3",
-    "PLD3",
-    "PKM",
-    "XIST",
-    "CACYBP"
+    "FTH1",
+    "IL8",
+    "HLA-B",
+    "SRGN",
+    "IL1B",
+    "HLA-DRA",
+    "CTSB",
+    "B2M",
+    "TNFAIP3",
+    "SOD2",
+    "CD74",
+    "PSAP",
+    "NFKBIA",
+    "S100A9",
+    "NAMPT",
+    "HBB",
+    "HLA-DRB1",
+    "VIM",
+    "TMSB4X",
+    "PLAUR"
   ],
+  "ProliferationScore": "0.204 (low)",
+  "StemnessScore": "0.780 (high)",
+  "ImmuneScore": "1.000 (high)",
+  "PrognosticScore": "0.126 (low)",
   "SupportingEvidence": [
-    "CHGB and CHGA are known to be associated with neuroendocrine differentiation, which is a characteristic of embryonal subtype.",
-    "PKM is involved in glycolysis, which is often upregulated in rapidly proliferating cells like those in embryonal subtype.",
-    "XIST is involved in X-chromosome inactivation, which may suggest a female patient or a cell line with two X chromosomes, but it does not directly indicate a specific subtype."
+    "Dominant antigen-presenting cell signature: HLA-DRA/DRB1, HLA-B, B2M, CD74",
+    "Pro-inflammatory myeloid markers: IL1B, IL8, S100A9; NF-\u03baB regulators TNFAIP3, NFKBIA",
+    "Lysosomal/stress and granule programs: CTSB, PSAP, SRGN, SOD2, NAMPT",
+    "Migration/invasion-associated markers: VIM, PLAUR",
+    "HBB likely reflects erythrophagocytosis or ambient RNA",
+    "Profile indicates tumor-associated myeloid cells rather than malignant hepatoblasts; HB subtype not directly inferable from this cluster"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the presence of neuroendocrine markers.",
-    "Perform metabolic assays to confirm the upregulation of glycolysis.",
-    "Perform karyotyping or FISH to confirm the X-chromosome status."
+    "Validate cell identity by IHC/flow (CD68, CD163, HLA-DR) and lack of EPCAM/ALB/KRT8/18",
+    "Infer CNVs from scRNA-seq to distinguish malignant vs immune populations",
+    "Re-cluster EPCAM+/ALB+ tumor cells separately to assign HB subtype",
+    "Apply spatial transcriptomics or multiplex IHC to map myeloid infiltration",
+    "Measure IL1B/IL8 secretion and assess myeloid polarization states"
   ]
 }

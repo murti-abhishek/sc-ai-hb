@@ -1,29 +1,43 @@
 {
   "Cluster": "2",
-  "CandidateSubtype": "Embryonal",
+  "CandidateSubtype": "mixed",
   "TopGenes": [
-    "SRGN",
-    "IL8",
-    "HBB",
-    "FTH1",
-    "IL1B",
-    "HLA-B",
-    "S100A9",
-    "B2M",
-    "CTSB",
-    "MT-CO1"
+    "MYH7B",
+    "PDXK",
+    "SLC1A5",
+    "LIX1",
+    "APCDD1",
+    "GRM3",
+    "CHST11",
+    "HOMER2",
+    "FBXO32",
+    "IGF2R",
+    "LEF1",
+    "MATN3",
+    "LEPR",
+    "TMX4",
+    "TBX3",
+    "SCRN1",
+    "SERPINI1",
+    "NKD1",
+    "ERMP1",
+    "RUNX2"
   ],
+  "ProliferationScore": "0.014 (low)",
+  "StemnessScore": "0.461 (intermediate)",
+  "ImmuneScore": "0.049 (low)",
+  "PrognosticScore": "0.000 (low)",
   "SupportingEvidence": [
-    "SRGN is known to be involved in cell proliferation and migration, which is characteristic of embryonal subtype.",
-    "IL8 and IL1B are pro-inflammatory cytokines, suggesting an immune response which is often seen in embryonal subtype.",
-    "HBB, FTH1, and MT-CO1 are involved in cellular metabolism and oxygen transport, which are crucial for rapidly dividing cells in embryonal subtype.",
-    "HLA-B, B2M, and S100A9 are involved in immune response, suggesting a possible immune infiltration in the tumor environment, a feature of embryonal subtype.",
-    "CTSB is a lysosomal protease involved in protein degradation and is often upregulated in aggressive tumors, supporting the embryonal subtype."
+    "RUNX2, MATN3, CHST11 upregulation indicates chondro-osseous/mesenchymal differentiation",
+    "LEF1, NKD1, APCDD1, TBX3 suggest active Wnt/\u03b2-catenin signaling common in HB and mixed tumors",
+    "Coexistence of mesenchymal markers with epithelial/tumor metabolism genes (SLC1A5, IGF2R) favors an epithelial\u2013mesenchymal mixed identity",
+    "Absence of strong hepatocyte differentiation markers (e.g., ALB, TTR, GLUL) argues against pure fetal subtype"
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to validate the expression of these genes at the protein level.",
-    "Perform functional assays to understand the role of these genes in tumor progression.",
-    "Investigate the immune cell infiltration in the tumor microenvironment using flow cytometry or single-cell RNA sequencing.",
-    "Validate these findings in a larger cohort of hepatoblastoma patients."
+    "IHC/IF: \u03b2-catenin (nuclear), LEF1, TBX3; mesenchymal markers RUNX2, SOX9, COL2A1, MATN3; epithelial markers HepPar-1, AFP",
+    "Spatial transcriptomics or RNA-ISH for RUNX2/MATN3 and EPCAM/ALB to demonstrate mixed epithelial\u2013mesenchymal regions",
+    "Genetics: CTNNB1 mutation testing; copy-number inference from scRNA-seq",
+    "Lineage analysis: trajectory/RNA velocity to assess epithelial\u2013mesenchymal transitions",
+    "Functional: Wnt pathway reporter or TCF/LEF target expression; glutamine dependence assays for SLC1A5"
   ]
 }

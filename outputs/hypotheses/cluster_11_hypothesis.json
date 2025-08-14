@@ -1,0 +1,44 @@
+{
+  "Cluster": "11",
+  "CandidateSubtype": "mixed",
+  "TopGenes": [
+    "IGFBP7",
+    "EMP1",
+    "AKAP12",
+    "SPARC",
+    "MTRNR2L1",
+    "VIM",
+    "TM4SF1",
+    "MALAT1",
+    "COL3A1",
+    "DNASE1L3",
+    "B2M",
+    "VWF",
+    "SPARCL1",
+    "TMSB10",
+    "COL1A2",
+    "COL4A1",
+    "MT-RNR2",
+    "COL1A1",
+    "IFI27",
+    "LUM"
+  ],
+  "ProliferationScore": "0.155 (low)",
+  "StemnessScore": "1.000 (high)",
+  "ImmuneScore": "0.314 (low)",
+  "PrognosticScore": "0.057 (low)",
+  "SupportingEvidence": [
+    "Enrichment of endothelial/angiogenic markers (VWF, SPARCL1, IGFBP7, TM4SF1, EMP1, AKAP12) indicates tumor-associated vasculature.",
+    "Strong extracellular matrix and fibroblast-like signature (COL1A1/COL1A2/COL3A1/COL4A1, LUM, SPARC, VIM, TMSB10) consistent with mesenchymal components.",
+    "Lack of hepatocytic differentiation genes (ALB, TTR, CPS1, HNF4A) argues against a pure fetal phenotype.",
+    "Absence of canonical epithelial/embryonal markers (AFP, EPCAM, KRT8/18, DLK1) argues against embryonal subtype.",
+    "DNASE1L3 and IFI27 fit endothelial/interferon-responsive stromal cells typically found in HB stroma."
+  ],
+  "SuggestedExperiments": [
+    "Immunohistochemistry/IF for CD31 (PECAM1), VWF, ERG, SPARCL1 and CAF markers (COL1A1, LUM, FAP, PDGFRB) to validate endothelial/mesenchymal identity.",
+    "Spatial transcriptomics or multiplex RNA ISH to localize these cells to perivascular/ECM-rich regions.",
+    "InferCNV or scDNA-seq to distinguish non-malignant stroma from mesenchymal-differentiated malignant cells.",
+    "Pathology review of H&E to confirm mixed epithelial\u2013mesenchymal features (e.g., fibroblastic/chondroid/osteoid areas).",
+    "Flow cytometry (EPCAM\u2212/CD45\u2212/CD31+ and/or PDGFRB+) followed by bulk RNA-seq/ATAC-seq to validate cell identity and programs."
+  ]
+}

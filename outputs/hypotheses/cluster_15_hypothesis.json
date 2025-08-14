@@ -1,0 +1,45 @@
+{
+  "Cluster": "15",
+  "CandidateSubtype": "embryonal",
+  "TopGenes": [
+    "CHGB",
+    "PCSK1N",
+    "SYT4",
+    "CHGA",
+    "MFAP4",
+    "NLRP1",
+    "NEUROD1",
+    "PBXIP1",
+    "SCGN",
+    "SCG3",
+    "BTBD3",
+    "KIAA1244",
+    "QPCT",
+    "TUBA1A",
+    "INSM1",
+    "APLP1",
+    "HSPB1",
+    "NR2F1",
+    "GNAS",
+    "CACYBP"
+  ],
+  "ProliferationScore": "0.000 (low)",
+  "StemnessScore": "0.848 (high)",
+  "ImmuneScore": "0.000 (low)",
+  "PrognosticScore": "0.055 (low)",
+  "SupportingEvidence": [
+    "Strong neuroendocrine/neuronal program (CHGA, CHGB, INSM1, NEUROD1, SCG3, SCGN, SYT4) typical of primitive embryonal-like cells",
+    "Absence of mature hepatocyte markers (e.g., ALB, TTR, CYPs) argues against fetal subtype",
+    "Developmental/immaturity cues (NR2F1, BTBD3) and neuronal cytoskeleton gene TUBA1A",
+    "Secretory/vesicle and processing genes (PCSK1N, QPCT) and ECM component MFAP4 support tumor-cell identity over stromal/immune",
+    "Signaling genes (GNAS, CACYBP) associated with progenitor-like pathways seen in embryonal hepatoblastoma"
+  ],
+  "SuggestedExperiments": [
+    "IHC/IF for INSM1, NEUROD1, CHGA/CHGB, EPCAM, KRT19, SOX9, and hepatocyte markers (ALB, HNF4A)",
+    "Ki-67 immunostaining to validate proliferation status",
+    "Electron microscopy to assess dense-core neurosecretory granules",
+    "Score the cluster against published fetal vs embryonal HB transcriptomic signatures (bulk/SC)",
+    "scRNA-derived CNV analysis to confirm tumor lineage; beta-catenin IHC/CTNNB1 sequencing for Wnt activation",
+    "Pseudotime/trajectory analysis to position this cluster along fetal\u2013embryonal differentiation"
+  ]
+}

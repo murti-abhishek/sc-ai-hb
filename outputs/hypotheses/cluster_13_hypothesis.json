@@ -1,0 +1,46 @@
+{
+  "Cluster": "13",
+  "CandidateSubtype": "fetal",
+  "TopGenes": [
+    "AFP",
+    "AHSG",
+    "APOM",
+    "ITIH2",
+    "APOA2",
+    "APOB",
+    "DLK1",
+    "SPINK1",
+    "ACADSB",
+    "ACSL4",
+    "SERPINA1",
+    "SCD",
+    "AHCY",
+    "F2",
+    "HBG2",
+    "SERPINA6",
+    "ALB",
+    "PEG10",
+    "TF",
+    "APOA1"
+  ],
+  "ProliferationScore": "0.167 (low)",
+  "StemnessScore": "0.182 (low)",
+  "ImmuneScore": "0.238 (low)",
+  "PrognosticScore": "1.000 (high)",
+  "SupportingEvidence": [
+    "Enrichment of hepatocyte metabolic/secretory genes (ALB, APOA1/A2/APOB/APOM, TF, AHSG, SERPINA1, ITIH2, F2, SERPINA6) consistent with differentiated hepatocyte-like identity",
+    "Oncofetal markers AFP, DLK1, PEG10 characteristic of fetal hepatoblasts",
+    "Lipid and mitochondrial metabolism genes (ACSL4, SCD, ACADSB) align with fetal hepatocyte program",
+    "HBG2 indicates a fetal developmental state",
+    "Absence of cholangiocyte/progenitor markers (EPCAM, KRT7, KRT19) argues against embryonal or mixed cholangioblastic components",
+    "Lack of angiogenic/endothelial signatures argues against macrotrabecular phenotype"
+  ],
+  "SuggestedExperiments": [
+    "Immunostaining for AFP, ALB, and DLK1/PEG10 to confirm fetal hepatocyte-like phenotype",
+    "Immunostaining for EPCAM and KRT19 to exclude embryonal/cholangioblastic components",
+    "Ki-67 staining to quantify proliferation",
+    "Assess Wnt/\u03b2-catenin pathway activation (AXIN2 qPCR; CTNNB1 mutation sequencing)",
+    "Infer copy-number alterations from scRNA-seq or perform low-pass DNA sequencing",
+    "Spatial transcriptomics or multiplex IF to evaluate tissue architecture and exclude macrotrabecular pattern"
+  ]
+}

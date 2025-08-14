@@ -1,0 +1,44 @@
+{
+  "Cluster": "12",
+  "CandidateSubtype": "fetal",
+  "TopGenes": [
+    "FGA",
+    "FGB",
+    "FGG",
+    "CPS1",
+    "C3",
+    "HP",
+    "RELN",
+    "FMO5",
+    "PGC",
+    "PAH",
+    "FN1",
+    "F5",
+    "ATP1B1",
+    "AFM",
+    "A2M",
+    "BHMT",
+    "GLUL",
+    "CFH",
+    "ALDH2",
+    "TMBIM6"
+  ],
+  "ProliferationScore": "0.115 (low)",
+  "StemnessScore": "0.064 (low)",
+  "ImmuneScore": "0.215 (low)",
+  "PrognosticScore": "0.377 (intermediate)",
+  "SupportingEvidence": [
+    "Strong hepatocyte secretory program: fibrinogen chains (FGA/FGB/FGG), coagulation factor F5, AFM, A2M, HP, complement factors (C3/CFH).",
+    "Metabolic enzyme profile typical of differentiated hepatocytes: CPS1, BHMT, PAH, GLUL, ALDH2, FMO5.",
+    "Co-expression of zonation markers CPS1 (periportal) and GLUL (pericentral) seen in fetal-like hepatoblastoma clusters with hepatocyte differentiation.",
+    "Absence of classic embryonal/progenitor markers (e.g., EPCAM, KRT19, DLK1, MKI67) among top genes."
+  ],
+  "SuggestedExperiments": [
+    "IHC/IF for CPS1, GLUL, HepPar-1; and counterstain for AFP, EPCAM, KRT19, DLK1 to exclude embryonal/ductal features.",
+    "Assess beta-catenin pathway (nuclear CTNNB1 staining; CTNNB1/AXIN1 sequencing) given GLUL upregulation.",
+    "Functional assays of hepatocyte differentiation (urea cycle activity via CPS1, glutamine synthetase activity).",
+    "Spatial transcriptomics or RNA ISH to localize CPS1/GLUL and fibrinogen gene expression within tumor regions.",
+    "Secretome/proteomics or ELISA for fibrinogen, A2M, AFM to validate hepatocyte secretory phenotype.",
+    "Pathology review for fetal histology (polygonal cells with low mitotic index) and exclude mixed patterns."
+  ]
+}

@@ -1,31 +1,46 @@
 {
   "Cluster": "6",
-  "CandidateSubtype": "fetal",
+  "CandidateSubtype": "embryonal",
   "TopGenes": [
-    "FGA",
-    "FGB",
-    "FGG",
-    "CPS1",
-    "C3",
-    "HP",
-    "FMO5",
-    "RELN",
-    "FN1",
-    "PAH"
+    "SOX4",
+    "NQO1",
+    "ENAH",
+    "NKD1",
+    "NOTUM",
+    "CLDN11",
+    "TXNRD1",
+    "DYNC1H1",
+    "TNFRSF19",
+    "PKM",
+    "VGLL4",
+    "APCDD1",
+    "H2AFY",
+    "NES",
+    "ASPSCR1",
+    "HDGF",
+    "SEPT9",
+    "TMEM9",
+    "XIST",
+    "GAPDH"
   ],
+  "ProliferationScore": "0.167 (low)",
+  "StemnessScore": "0.457 (intermediate)",
+  "ImmuneScore": "0.056 (low)",
+  "PrognosticScore": "0.107 (low)",
   "SupportingEvidence": [
-    "FGA, FGB, and FGG are part of the fibrinogen complex, which is typically expressed in the liver and is associated with fetal liver development.",
-    "CPS1 is involved in the urea cycle, which is active in the fetal liver.",
-    "C3 and HP are acute phase proteins produced by the liver, often upregulated in fetal liver.",
-    "FMO5 is involved in drug metabolism and is highly expressed in fetal liver.",
-    "RELN is involved in neuronal migration and is typically expressed during fetal development.",
-    "FN1 is involved in cell adhesion and migration, processes that are active during fetal development.",
-    "PAH is involved in the metabolism of phenylalanine, a process that is active in the fetal liver."
+    "Wnt/\u03b2-catenin targets and modulators (NOTUM, NKD1, APCDD1, TMEM9, TNFRSF19) are upregulated, characteristic of embryonal HB.",
+    "Progenitor/stem-associated markers (SOX4, NES) indicate a less-differentiated state favoring embryonal over fetal.",
+    "Absence of mature hepatocyte metabolic markers (e.g., ALB, CYPs) argues against the fetal subtype.",
+    "Cytoskeletal/adhesion genes (ENAH, CLDN11, SEPT9) align with invasive/progenitor programs seen in embryonal areas.",
+    "Metabolic/stress reprogramming genes (PKM, GAPDH, NQO1, TXNRD1) fit embryonal-like tumor cell biology.",
+    "VGLL4 suggests Hippo\u2013YAP pathway interplay typical in aggressive progenitor-like HB."
   ],
   "SuggestedExperiments": [
-    "Perform immunohistochemistry to confirm the expression of these genes at the protein level.",
-    "Perform in situ hybridization to localize the expression of these genes within the tumor.",
-    "Use CRISPR-Cas9 to knock out these genes and observe the effect on tumor growth and development.",
-    "Perform single-cell RNA sequencing on different tumor regions to confirm the presence of this fetal subtype across the tumor."
+    "IHC/IF for embryonal markers (SALL4, LIN28B, DLK1, AFP, EPCAM, KRT19) versus fetal markers (ALB, HNF4A) to refine subtype.",
+    "Assess \u03b2-catenin activation (nuclear CTNNB1 by IHC; AXIN2/LEF1 qPCR; TOPFlash reporter in derived cells).",
+    "Quantify NOTUM secretion (ELISA) and test Wnt pathway dependency via NOTUM/TMEM9 inhibition or knockdown.",
+    "Single-cell trajectory and gene-set scoring with published HB subtype signatures to position this cluster on the fetal\u2013embryonal axis.",
+    "Ki-67 staining to validate proliferation at the protein level in this cluster.",
+    "Correlate with histology (H&E) to exclude macrotrabecular architecture."
   ]
 }
